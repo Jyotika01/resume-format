@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.column1 {
+	background-color: #64C9CF;
+	padding-top: 12px;
+	color: white;
+	height: 1000px;
+	position: fixed !important;
+}
+
+.icons {
+	text-align: center;
+}
+.i1 {
+	margin-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 30px;
+}
+
+.list {
+	font-size: 20px;
+	margin-top: 50px;
+}
+.list ul {
+	list-style: none;
+}
+.list ul li {
+	padding-bottom: 20px;
+	padding-left: 13px;
+}
+.list ul li a {
+   color: white;
+}
+
+.about {
+	padding-left: 35px;
+}
+
+.about h2{
+	color: #DF711B !important;
+	font-size: 40px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+.btn {
+	float: right;
+	margin-top: -35px;
+}
+
+.bars {
+	padding-left: 35px;
+}
+.progress .progress-bar{
+	background-color: #DF711B;
+}
+.experience {
+	padding-left: 35px;
+}
+
+.experience h2{
+	color: #DF711B !important;
+	font-size: 40px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+.education {
+	padding-left: 35px;
+}
+
+.education h2{
+	color: #DF711B !important;
+	font-size: 40px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+.contact{
+	padding-left: 35px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.contact h2{
+	color: #DF711B !important;
+	font-size: 40px;
+	padding-top: 20px;
+	text-decoration: underline;
+	
+}
+.test{
+	padding-left: 50px;
+	background: white;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.test h2{
+	color: #DF711B !important;
+	font-size: 40px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+.test .carousel{
+	background-color: white;
+}
+.test .thumbnail {
+	padding:40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.test .img {
+	text-align: center;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.column3 {
+	border-radius: 3px;
+}
+
+@media (max-width:991px){
+	.column1{
+		position:unset !important;
+		height: 700px;
+	}
+	.column2 {
+		float:unset !important;
+	}
+}
+
+@media (max-width:1245px)
+{
+	.i1{
+		font-size: 20px;
+	}
+}
+@media (max-width:1110px)
+{
+	.i1{
+		padding-right: 10px;
+	padding-left: 10px;
+	}
+}
+@media (max-width:994px)
+{
+	.i1{
+		font-size:30px;
+		padding-right: 20px;
+	padding-left: 20px;
+	}
+}
+
+@media  (max-width:429.60px)
+{
+	.btn {
+		float:left;
+    margin-left: -10px;
+    margin-top: 1px;
+	.para {
+		margin-top : 2px;
+	}
+}
+}
+
+
+@media (max-width:370px) {
+	.about {
+		padding-left:20px;
+		padding-right:20px;
+		}
+    .experience {
+		padding-left:20px;
+		padding-right:20px;
+     }
+     .education {
+		padding-left:20px;
+		padding-right:20px;
+		}
+		.contact {
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.test {
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
